@@ -25,7 +25,7 @@ SECRET_KEY = 'tl=8+7t(0y*3ebw%r7750zbg6$p%jfw)t@g-xfr+xqm%uzn0&f'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -120,7 +120,3 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, "static/tag_audio"),
-    '/var/www/static/',
-]
