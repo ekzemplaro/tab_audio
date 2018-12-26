@@ -1,0 +1,9 @@
+
+django-admin startproject proj01
+
+python manage.py startapp tag_audio
+
+proj01/settings.py
+
+
+proj01/urls.py
